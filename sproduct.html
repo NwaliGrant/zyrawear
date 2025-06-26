@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ZYRAWEAR | Shop</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section class="header">
+         <a href="index.html" class="header_logo">
+             <span class="logo-zyra">ZYRA</span><span class="logo-wear">Wear</span>
+        </a>
+
+          <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a class="active" href="Shop.html">Shop</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="cart.html"><i id="lg_cart" class="fas fa-shopping-cart"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+
+            </ul>
+          </div>
+          <div id="mobile">
+            <i class="fas fa-bars" id="bar"></i>
+            <a href="cart.html"><i class = "far fa-shopping-cart"> </i></a>
+          </div>
+        </section>
+        <section id="pro_details" class="section-p1">
+            <div class="single_pro_image">
+                <img src="./img/products/f2.jpg" width="100%" id="MainImg" alt="">
+                <div class="small-img-group">
+                    <div class="small_img_col">
+                    <img src="./img/products/f2.jpg" width="100%" class="small_img" alt="">
+                    </div>
+                    <div class="small_img_col">
+                    <img src="./img/products/f8.jpg" width="100%" class="small_img" alt="">
+                    </div>
+                    <div class="small_img_col">
+                    <img src="./img/products/f3.jpg" width="100%" class="small_img" alt="">
+                    </div>
+                    <div class="small_img_col">
+                    <img src="./img/products/f4.jpg" width="100%" class="small_img" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="single_pro_details">
+                <h6>Home / T-Shirt</h6>
+                <h4>Men's Fashion T-Shirt</h4>
+                <h2>$50.00</h2>
+                <select name="" id="">
+                    <option>Select Size</option>
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                    <option>Extra Large</option>
+                </select>
+                <input type="number" value="1">
+                 <button class="normal" onclick="addToCart()">Add to Cart</button>
+                <h4>Product Details</h4>
+                <div class="product_data">
+                    <strong>Brand:</strong> ZYRAWEAR<br>
+                    <strong>Product Code:</strong> 12345<br>
+                    <strong>Availability:</strong> In Stock<br>
+                    <strong>Condition:</strong> New<br>
+                </div>
+                <div class="product_desc">
+                    <span>With each thread, sense Africa's pulse. Clothing should connect you to your roots, not just cover you, according to ZyaWear. 
+                        Imagine yourself cozying up in the soft, handwoven Akwete cloth made by generations of talented artisans, or wrapped in vibrant 
+                        Ankara prints from the busy markets of Lagos.Bold, vibrant, and vibrant, every piece we produce is a love letter to our culture. 
+                        It's about celebrating our communities' inventiveness, the bravery of our forefathers, and the hope of a better future. ZyraWear 
+                        is more than just an outfit; it's a movement, a legacy, and a story.So go ahead, let your wardrobe speak volumes. Wear the legacy. 
+                         Embrace the rhythm. With Ife Wear, you’re not just styling yourself; you’re celebrating everything that makes Africa extraordinary.</span>
+                </div>
+            </div>
+        </section>
+
+            <section id="product1" class="section-p1"> 
+            <h2>Featured Trends</h2>
+            <p>Discover the latest in fashion with our featured trends.</p>
+            <div class="pro-container">
+                    <div class="pro">
+                        <img src="./img/products/n1.jpg" alt="">
+                        <div class="des">
+                            <span>adidas</span>
+                            <h5>Carbon Astronaut T-Shirts</h5>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <h4>$100</h4>
+                        </div>
+                        <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+                    </div>
+                    <div class="pro">
+                        <img src="./img/products/n3.jpg" alt="">
+                        <div class="des">
+                            <span>adidas</span>
+                            <h5>Carbon Astronaut T-Shirts</h5>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <h4>$100</h4>
+                        </div>
+                        <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+                    </div>
+                    <div class="pro">
+                        <img src="./img/products/n8.jpg" alt="">
+                        <div class="des">
+                            <span>adidas</span>
+                            <h5>Carbon Astronaut T-Shirts</h5>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <h4>$100</h4>
+                        </div>
+                        <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+                    </div>
+                    <div class="pro">
+                        <img src="./img/products/n4.jpg" alt="">
+                        <div class="des">
+                            <span>adidas</span>
+                            <h5>Carbon Astronaut T-Shirts</h5>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <h4>$100</h4>
+                        </div>
+                        <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+                    </div>
+               
+                <!-- Repeat similar blocks for other products -->
+            </div>
+        </section>
+                    
+        <section id="newsletter" class="section-p1 section-m1" >
+            <div class="newstext">
+                <h4>Join Our Mailing List</h4>
+                <p>
+                    Sign up to receive the  <span>hottest updates</span> and limited-time offers straight to your email.</p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Your email address">
+                <button class="normal" onclick="subscribeNewsletter()">Sign Up</button>
+            </div>
+        </section>
+
+<footer class="section-p1">
+    <div class="col">
+        <a href="index.html" class="header_logo">
+             <span class="logo-zyra">ZYRA</span><span class="logo-wear">Wear</span>
+        </a>
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> 042 Obge Street, Awada, Iyooo</p>
+        <p><strong>Phone:</strong> +234813369015</p>
+        <p><strong>Hours:</strong> 09:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+    </div>
+
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">New Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+
+    <div class="col install">
+       <h4>Install App</h4>
+       <p>From App Store or Google Play</p> 
+       <div class="row">
+           <img src="./img/pay/app.jpg" alt="">
+           <img src="./img/pay/play.jpg" alt="">
+        </div>
+         <p>Secured Payment Gateways</p>
+         <img src="./img/pay/pay.png" alt="">
+    </div>
+
+    <div class="copyright">
+        <p>© 2025, ZyraWear. All rights reserved.</p>
+</footer>
+        <script>
+
+            
+                // Script for navigation bar
+                const bar = document.getElementById('bar');
+                const nav = document.getElementById('navbar');
+                const close = document.getElementById('close');
+
+                if (bar) {
+                    bar.onclick = () => {
+                        nav.classList.add('active');
+                    }
+                }
+                if (close) {
+                    close.onclick = () => {
+                        nav.classList.remove('active');
+                    }
+                }
+            // Script for product gallery
+
+            
+            // Get the main image element
+    var MainImg = document.getElementById("MainImg");
+    // Get all small image elements
+    var small_img = document.getElementsByClassName("small_img");
+    // Get the product description span
+    var productDesc = document.querySelector('.product_desc span');
+    // Get the product data container
+    var productData = document.querySelector('.product_data');
+
+    // Array of descriptions for each image
+    var descriptions = [
+        "Zyrawear celebrates the art of storytelling through fabric. Imagine slipping into a gown woven with the reds of a Sahara sunset, or donning a shirt printed with the swirling indigo of the Niger River. Each pattern whispers tales of resilience and community, reminding you that every piece you wear carries the soul of our ancestors.",
+        "At Zyrawear, we merge time-honored weaving techniques with modern silhouettes. Think structured blazers cut from soft kente cloth, or flowy skirts in hand-dyed bogolanfini. It’s a fusion of past and present that empowers you to honor your heritage while owning your place in today’s world.",
+        "Wrap yourself in the spirit of African celebration with Zyrawear’s vibrant ensembles. From the joyful geometrics of Ndebele prints to the delicate embroidery of Tuareg textiles, our collection turns everyday wear into an occasion. When you step out, you’re not just dressed for the day—you’re dressed for a legacy.",
+        "Zyrawear is where culture meets confidence. Picture a lightweight dashiki rendered in luxe brocade, or a tailored jumpsuit in shimmering adire indigo. Every seam is sewn with intention, every color chosen to uplift. With Zyraweara, your style becomes a statement of pride and possibility."
+    ];
+
+    // Array of product data for each image
+    var productDataArr = [
+        "<strong>Brand:</strong> ZYRAWEAR<br><strong>Product Code:</strong> 12345<br><strong>Availability:</strong> In Stock<br><strong>Condition:</strong> New<br>",
+        "<strong>Brand:</strong> ZYRAWEAR<br><strong>Product Code:</strong> 23456<br><strong>Availability:</strong> Limited Stock<br><strong>Condition:</strong> New<br>",
+        "<strong>Brand:</strong> ZYRAWEAR<br><strong>Product Code:</strong> 34567<br><strong>Availability:</strong> In Stock<br><strong>Condition:</strong> New<br>",
+        "<strong>Brand:</strong> ZYRAWEAR<br><strong>Product Code:</strong> 45678<br><strong>Availability:</strong> Out of Stock<br><strong>Condition:</strong> New<br>"
+    ];
+
+    // Loop through each small image and add click event
+    for (let i = 0; i < small_img.length; i++) {
+        small_img[i].onclick = function() {
+            MainImg.src = this.src;
+            productDesc.textContent = descriptions[i];
+            productData.innerHTML = productDataArr[i];
+        }
+    }
+        </script>
+        <script src="script.js"></script>
+    </body> 
+
+</html>
