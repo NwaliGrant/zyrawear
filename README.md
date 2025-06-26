@@ -1,33 +1,54 @@
-# Build-and-Deploy-Ecommerce-Website-With-HTML-CSS-JavaScript
+# 🌍 Zyrawear – African Fashion Reimagined
 
-[<img alt="Build-and-Deploy-Ecommerce-Website-With-HTML-CSS-JavaScript" width="100%" src="https://github.com/tech2etc/Youtube-Tutorials/blob/main/Build%20and%20Deploy%20Ecommerce%20Website%20With%20HTML%20CSS%20JavaScript%20Full%20Responsive%20Ecommerce%20Course%20FREE.PNG?raw=true" />](https://youtu.be/P8YuWEkTeuE/)
+**Zyrawear** is a proudly African fashion brand that blends cultural heritage with modern design. Rooted in tradition and driven by style, Zyrawear showcases bold prints, timeless silhouettes, and the spirit of Afro-urban excellence.
 
-## About this course
-LEARN HOW TO BUILD AND DEPLOY FULL RESPONSIVE ECOMMERCE WEBSITE USING HTML CSS & JAVASCRIPT. This is a free HTML CSS Course. And in this course we will learn how to build and deploy a full multipage ecommerce website completely from scratch step by step. Will Create from responsive navbar using html CSS JavaScript to responsive footer in one video.
+This repository hosts the official website of Zyrawear — built to take African fashion to the world.
 
-## Why This Course?
-- Responsive Ecommerce Website Tutorial Using HTML CSS & JavaScript.
-- Completely For Beginners.
-- Multipage Ecommerce Website Project.
-- Best Beginner Friendly Free Course On YouTube.
-- Learn How to build amazing professional and responsive websites.
-- Learn the fundamentals of web design.
-- Modern CSS, including flexbox and CSS Grid for layout.
-- Modern CSS techniques to create stunning designs and effects.
-- How to use common components and layout patterns for professional website design and development.
-- Advanced responsive design using media queries.
-- And Many More.
+---
 
-## Sections
-- Part1: Responsive Home Page Design.
-- Part2: Shop Page & Single Product Page.
-- Part3: Blog Page.
-- Part4: About Page.
-- Part5: Contact Us.
-- Part6: Ecommerce Shopping Cart.
+## 🧵 What We Offer
 
-Here you will find all the images I'm using to create this responsive ecommerce website. In future image folder can update.
+- Afro-urban streetwear and cultural fashion
+- Inspired by Akwàete, Ankara, and indigenous African patterns
+- Mobile-friendly, clean interface for fashion lovers
+- Identity-driven visuals and storytelling through design
 
-Get the full source code from [here1](https://www.buymeacoffee.com/tech2etc/e/50932).
+---
 
-Get the full source code from [here2](https://ko-fi.com/s/06e4db9e09).
+## 🚀 Live Demo
+
+🌐 **Website:** [https://zyrawear.vercel.app](https://zyrawear.vercel.app)  
+📂 **Repository:** [https://github.com/NwaliGrant/zyrawear](https://github.com/NwaliGrant/zyrawear)
+
+---
+
+## 🛠 Tech Stack
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- Git and GitHub for version control  
+- Vercel for hosting
+
+---
+
+## 🖤 Rooted in Culture
+
+At Zyrawear, we honour African craftsmanship like the **Akwàete cloth** — a handwoven fabric from Akwete town in Abia State, Nigeria. Traditionally woven by women and worn by men and women during cultural events, it remains a proud symbol of heritage. We bring this legacy to life through digital fashion.
+
+---
+
+## 🤝 Contribute or Collaborate
+
+Interested in contributing or sharing ideas?  
+Send a pull request or reach out via email: **nwaligrant@gmail.come**
+
+---
+
+## 🧠 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## ✨ Built with culture and code by [@NwaliGrant](https://github.com/NwaliGrant)
